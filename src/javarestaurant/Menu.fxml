@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.CharmListView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="696.0" style="-fx-background-color: #B42B21;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="225.0" minWidth="9.0" percentWidth="1.0" prefWidth="11.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="677.0" minWidth="10.0" percentWidth="80.0" prefWidth="646.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="161.0" minWidth="3.0" percentWidth="18.0" prefWidth="43.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="161.0" minWidth="10.0" percentWidth="1.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="178.0" minHeight="0.0" percentHeight="5.0" prefHeight="33.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="512.0" minHeight="10.0" percentHeight="95.0" prefHeight="512.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="38.0" minHeight="7.0" percentHeight="2.0" prefHeight="10.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <TabPane prefHeight="522.0" prefWidth="616.0" style="-fx-background-color: #f0af4b;" tabClosingPolicy="UNAVAILABLE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+        <tabs>
+          <Tab style="-fx-background-color: #FFFFFF;" text="BREAKFAST">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #EEC2A1;">
+                     <children>
+                        <GridPane layoutY="-14.0" prefHeight="493.0" prefWidth="682.0" style="-fx-background-color: #FDE6AF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="254.0" minWidth="10.0" prefWidth="248.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="493.0" minWidth="0.0" prefWidth="43.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="493.0" minWidth="10.0" prefWidth="218.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="493.0" minWidth="10.0" prefWidth="114.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="493.0" minWidth="10.0" prefWidth="57.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="321.0" minHeight="10.0" prefHeight="18.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="388.0" minHeight="8.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="430.0" minHeight="7.0" prefHeight="19.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="350.0" minHeight="14.0" prefHeight="17.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="350.0" minHeight="0.0" prefHeight="28.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="0.0" prefHeight="22.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="0.0" prefHeight="17.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="10.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="10.0" prefHeight="19.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="10.0" prefHeight="23.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="5.0" prefHeight="5.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="0.0" prefHeight="17.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="10.0" prefHeight="16.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="0.0" prefHeight="19.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="8.0" prefHeight="21.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="9.0" prefHeight="21.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="9.0" prefHeight="18.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="10.0" prefHeight="22.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="0.0" prefHeight="14.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="10.0" prefHeight="26.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="10.0" prefHeight="16.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="10.0" prefHeight="26.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="10.0" prefHeight="19.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="10.0" prefHeight="19.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="340.0" minHeight="10.0" prefHeight="19.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label text="Light Breakfast" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="148.0" style="-fx-background-color: #E3B999;" text="Plain Fruit Salad" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                              <Button minHeight="12.0" mnemonicParsing="false" prefHeight="12.0" prefWidth="148.0" style="-fx-background-color: #E3B999;" text="Enhanced Fruit Salad" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="148.0" style="-fx-background-color: #E3B999;" text="Oatmeal Pancakes" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="148.0" style="-fx-background-color: #E3B999;" text="Homemade Granole" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="134.0" text="Brioche French Toast" GridPane.rowIndex="5" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="133.0" text="Classic Pancakes" GridPane.rowIndex="6" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="155.0" text="Banana Walnut Pancakes" GridPane.rowIndex="10" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="154.0" text="Chocolate Chip Pancakes" GridPane.rowIndex="9" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="246.0" text="Banana Walnut &amp; Chocolate Chip Pancakes" GridPane.rowIndex="11" />
+                              <Label prefHeight="17.0" prefWidth="148.0" text="Signature Pancakes" GridPane.rowIndex="7" />
+                              <Label text="Bagels" GridPane.rowIndex="12" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="133.0" text="Toasted with Butter" GridPane.rowIndex="13" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="177.0" text="Toasted with Cream Cheese" GridPane.rowIndex="14" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="209.0" text="Plain Egg &amp; Cheese Sandwich" GridPane.rowIndex="15" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="216.0" text="Enhanced Egg &amp; Cheese Sandwich" GridPane.rowIndex="16" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="212.0" text="Enhanced Egg &amp; Cheese Sandwich" GridPane.rowIndex="19" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="200.0" text="Breakfast Croissant Combo" GridPane.rowIndex="20" />
+                              <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="198.0" text="Egg &amp; Cheese Sandwich" GridPane.rowIndex="18" />
+                              <Label text="Croissants" GridPane.rowIndex="17" />
+                              <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                              <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                              <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                              <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                              <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                              <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+                              <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="14" />
+                              <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="15" />
+                              <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="16" />
+                              <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="20" />
+                              <Label text="Label" GridPane.columnIndex="1" GridPane.rowIndex="19" />
+                              <Button mnemonicParsing="false" text="Button" GridPane.rowIndex="21" />
+                              <Label text="Label" GridPane.rowIndex="22" />
+                              <Button mnemonicParsing="false" text="Button" GridPane.rowIndex="23" />
+                              <Button mnemonicParsing="false" text="Button" GridPane.rowIndex="24" />
+                           </children>
+                        </GridPane>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab style="-fx-background-color: #FDE6AF;" text="HOT DRINKS">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #FDE6AF;" />
+              </content>
+            </Tab>
+          <Tab style="-fx-background-color: #FFFFFF;" styleClass="#EEC2A1" text="BAKER'S CORNER">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #F0AF4B;">
+                     <children>
+                        <GridPane layoutX="141.0" layoutY="69.0" prefHeight="493.0" prefWidth="682.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="189.0" minWidth="10.0" prefWidth="154.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="225.0" minWidth="0.0" prefWidth="67.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="355.0" minWidth="10.0" prefWidth="352.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                              <RowConstraints maxHeight="27.0" minHeight="10.0" prefHeight="27.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="39.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="46.0" minHeight="10.0" prefHeight="31.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="37.0" minHeight="10.0" prefHeight="37.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="41.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="41.0" minHeight="10.0" prefHeight="32.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="31.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="66.0" minHeight="10.0" prefHeight="32.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="42.0" minHeight="1.0" prefHeight="33.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="38.0" minHeight="10.0" prefHeight="31.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="39.0" minHeight="10.0" prefHeight="34.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="38.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="183.0" text="Button" GridPane.rowIndex="2" />
+                              <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="173.0" text="Button" GridPane.rowIndex="3" />
+                              <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="171.0" text="Button" GridPane.rowIndex="4" />
+                              <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="183.0" text="Button" GridPane.rowIndex="5" />
+                              <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="184.0" text="Button" GridPane.rowIndex="11" />
+                              <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="170.0" text="Button" GridPane.rowIndex="12" />
+                              <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="172.0" text="Button" GridPane.rowIndex="13" />
+                              <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="183.0" text="Button" GridPane.rowIndex="6" />
+                              <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="171.0" text="Button" GridPane.rowIndex="7" />
+                              <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="183.0" text="Button" GridPane.rowIndex="8" />
+                              <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="183.0" text="Button" GridPane.rowIndex="9" />
+                              <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="183.0" text="Button" GridPane.rowIndex="10" />
+                              <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="159.0" text="Button" GridPane.rowIndex="1" />
+                              <Label prefHeight="18.0" prefWidth="64.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Label prefHeight="18.0" prefWidth="61.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Label prefHeight="18.0" prefWidth="66.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <Label prefHeight="18.0" prefWidth="59.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <Label prefHeight="18.0" prefWidth="65.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                              <Label prefHeight="18.0" prefWidth="62.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                              <Label prefHeight="18.0" prefWidth="68.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                              <Label prefHeight="18.0" prefWidth="62.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                              <Label prefHeight="18.0" prefWidth="68.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                              <Label prefHeight="18.0" prefWidth="60.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                              <Label prefHeight="18.0" prefWidth="60.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                              <Label prefHeight="18.0" prefWidth="66.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+                              <Label prefHeight="18.0" prefWidth="66.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+                           </children>
+                        </GridPane>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab style="-fx-background-color: #FDE6AF;" text="LUNCH AND DINNER">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #F1CD7F;">
+                     <children>
+                        <GridPane layoutX="170.0" layoutY="186.0" prefHeight="462.0" prefWidth="682.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+                                <tabs>
+                                    <Tab style="-fx-background-color: #FDE6AF;" text="SALADS">
+                                      <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                             <children>
+                                                <GridPane layoutX="148.0" layoutY="49.0" prefHeight="402.0" prefWidth="682.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                  <columnConstraints>
+                                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="108.0" minWidth="10.0" prefWidth="35.0" />
+                                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="221.0" minWidth="10.0" prefWidth="220.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="103.0" minWidth="10.0" prefWidth="67.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="248.0" minWidth="10.0" prefWidth="37.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="263.0" minWidth="10.0" prefWidth="254.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="103.0" minWidth="10.0" prefWidth="36.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="34.0" />
+                                                  </columnConstraints>
+                                                  <rowConstraints>
+                                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                  </rowConstraints>
+                                                   <children>
+                                                      <Label prefHeight="18.0" prefWidth="219.0" text="Classic Salads" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="303.0" text="Garden Salad" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="226.0" text="Plain Caesar Salad" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="222.0" text="Enhanced Caesar Salad" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="222.0" text="Grilled Chicken Strips Salad" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                                      <Label prefHeight="18.0" prefWidth="228.0" text="Freshly -Cut Fruit Salad" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="236.0" text="Enhanced Fruit Salad" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="228.0" text="Plain Fruit Salad" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="238.0" text="Spicy Vegetable &amp; Holloumi Salad " GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="237.0" text="Caribbean Chicken Salad" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="237.0" text="Oriental Chicken Salad" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="237.0" text="California Garden Salad" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="238.0" text="Strawberry Chicken Salad" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="237.0" text="Crispy Chicken Breast Salad" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                                                      <Label prefHeight="18.0" prefWidth="211.0" text="Signature Salads" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                                                   </children>
+                                                </GridPane>
+                                             </children></AnchorPane>
+                                      </content>
+                                    </Tab>
+                                  <Tab text="BURGERS">
+                                    <content>
+                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                             <children>
+                                                <GridPane layoutY="14.0" prefHeight="402.0" prefWidth="682.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <columnConstraints>
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="108.0" minWidth="10.0" prefWidth="32.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="255.0" minWidth="10.0" prefWidth="221.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="226.0" minWidth="8.0" prefWidth="18.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="103.0" minWidth="10.0" prefWidth="16.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="248.0" minWidth="10.0" prefWidth="62.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="263.0" minWidth="10.0" prefWidth="164.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="103.0" minWidth="10.0" prefWidth="19.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="103.0" minWidth="10.0" prefWidth="66.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="41.0" />
+                                                   </columnConstraints>
+                                                   <rowConstraints>
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints maxHeight="42.0" minHeight="10.0" prefHeight="34.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints maxHeight="44.0" minHeight="10.0" prefHeight="37.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints maxHeight="31.0" minHeight="10.0" prefHeight="23.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                   </rowConstraints>
+                                                   <children>
+                                                      <Label prefHeight="18.0" prefWidth="219.0" text="Beef" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="303.0" text="Beef Burger" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="226.0" text="Cheese Burger" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="228.0" text="Blue Cheese Burger" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="228.0" text="Jalapeno Cheese Burger" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="236.0" text="Ben's Burger" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="238.0" text="Grilled Chicken Burger" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="237.0" text="Grilled Chicken Cheese Burger" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="237.0" text="Veggie Burger" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="237.0" text="Veggie Cheese Burger" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="237.0" text="Bacon Cheese Burger" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                                                      <Label prefHeight="18.0" prefWidth="211.0" text="Chicken" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                                                      <Label prefHeight="18.0" prefWidth="262.0" text="Veggie" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                                                      <Button mnemonicParsing="false" prefHeight="51.0" prefWidth="226.0" text="Guacamole Bacon Cheese Burger" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                                                      <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="226.0" text="Double-Double Burger" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="237.0" text="Chicken Pesto Burger" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                                                      <Button fx:id="LUNCHBURGERGRILLEDCHICKENBURGER" minWidth="27.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="27.0" style="-fx-background-color: #0078D7;" text="XX" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                                                         <effect>
+                                                            <BoxBlur />
+                                                         </effect>
+                                                      </Button>
+                                                   </children>
+                                                </GridPane>
+                                             </children></AnchorPane>
+                                    </content>
+                                  </Tab>
+                                  <Tab style="-fx-background-color: #FDE6AF;" text="SANDWICHES">
+                                    <content>
+                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                             <children>
+                                                <GridPane layoutX="122.0" layoutY="38.0">
+                                                  <columnConstraints>
+                                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="92.0" minWidth="10.0" prefWidth="78.0" />
+                                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="122.0" minWidth="10.0" prefWidth="122.0" />
+                                                  </columnConstraints>
+                                                  <rowConstraints>
+                                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                  </rowConstraints>
+                                                </GridPane>
+                                                <GridPane prefHeight="402.0" prefWidth="557.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <columnConstraints>
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="108.0" minWidth="10.0" prefWidth="32.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="255.0" minWidth="10.0" prefWidth="221.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="226.0" minWidth="8.0" prefWidth="18.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="103.0" minWidth="10.0" prefWidth="50.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="248.0" minWidth="10.0" prefWidth="15.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="263.0" minWidth="10.0" prefWidth="228.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="103.0" minWidth="10.0" prefWidth="19.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="103.0" minWidth="10.0" prefWidth="66.0" />
+                                                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="41.0" />
+                                                   </columnConstraints>
+                                                   <rowConstraints>
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints maxHeight="42.0" minHeight="10.0" prefHeight="34.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints maxHeight="44.0" minHeight="10.0" prefHeight="37.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints maxHeight="31.0" minHeight="10.0" prefHeight="23.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                   </rowConstraints>
+                                                   <children>
+                                                      <Label prefHeight="18.0" prefWidth="219.0" text="Beef" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="303.0" text="Beef Burger" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="226.0" text="Cheese Burger" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="228.0" text="Blue Cheese Burger" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="228.0" text="Jalapeno Cheese Burger" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="236.0" text="Ben's Burger" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="238.0" text="Grilled Chicken Burger" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="237.0" text="Grilled Chicken Cheese Burger" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="237.0" text="Veggie Burger" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="237.0" text="Veggie Cheese Burger" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="237.0" text="Bacon Cheese Burger" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                                                      <Label prefHeight="18.0" prefWidth="211.0" text="Chicken" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                                                      <Label prefHeight="18.0" prefWidth="262.0" text="Veggie" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                                                      <Button mnemonicParsing="false" prefHeight="51.0" prefWidth="226.0" text="Guacamole Bacon Cheese Burger" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                                                      <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="226.0" text="Double-Double Burger" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                                                      <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="237.0" text="Chicken Pesto Burger" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                                                   </children>
+                                                </GridPane>
+                                             </children></AnchorPane>
+                                    </content>
+                                  </Tab>
+                                    <Tab text="WRAPS">
+                                      <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                      </content>
+                                    </Tab>
+                                    <Tab style="-fx-background-color: #FDE6AF;" text="SIGNATURE DISHES">
+                                      <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                      </content>
+                                    </Tab>
+                                    <Tab text="TEX-MEX SPECIALTIES">
+                                      <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                      </content>
+                                    </Tab>
+                                </tabs>
+                              </TabPane>
+                           </children>
+                        </GridPane>
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+            <Tab style="-fx-background-color: #FFFFFF;" text="DESSERT">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #FDE6AF;">
+                     <children>
+                        <GridPane prefHeight="493.0" prefWidth="682.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="168.0" minWidth="0.0" prefWidth="48.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="368.0" minWidth="10.0" prefWidth="140.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="382.0" minWidth="10.0" prefWidth="128.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="382.0" minWidth="10.0" prefWidth="57.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="382.0" minWidth="10.0" prefWidth="60.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="382.0" minWidth="0.0" prefWidth="122.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="382.0" minWidth="0.0" prefWidth="122.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="479.0" minWidth="10.0" prefWidth="110.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="442.0" minWidth="10.0" prefWidth="40.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="39.0" minHeight="10.0" prefHeight="38.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="37.0" minHeight="10.0" prefHeight="37.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="36.0" minHeight="10.0" prefHeight="36.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="37.0" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="51.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="39.0" minHeight="4.0" prefHeight="34.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="39.0" minHeight="9.0" prefHeight="29.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="38.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="44.0" minHeight="10.0" prefHeight="31.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label prefHeight="17.0" prefWidth="138.0" text="Label" GridPane.columnIndex="1" />
+                              <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="124.0" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="124.0" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                              <Label prefHeight="17.0" prefWidth="136.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                              <Label prefHeight="17.0" prefWidth="139.0" text="Label" GridPane.columnIndex="5" />
+                              <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                              <Label prefHeight="17.0" prefWidth="122.0" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                              <Label prefHeight="17.0" prefWidth="115.0" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                              <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+                              <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+                              <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="124.0" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Button mnemonicParsing="false" prefHeight="39.0" prefWidth="124.0" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <Button mnemonicParsing="false" prefHeight="41.0" prefWidth="124.0" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <Button minHeight="0.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="124.0" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                              <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="106.0" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                              <Button mnemonicParsing="false" prefHeight="41.0" prefWidth="106.0" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                              <Button mnemonicParsing="false" prefHeight="43.0" prefWidth="124.0" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                              <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="124.0" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                              <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="124.0" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                              <Button mnemonicParsing="false" prefHeight="43.0" prefWidth="124.0" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                              <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+                              <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+                              <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Button" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                           </children>
+                        </GridPane>
+                        <Label text="Label" />
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+            <Tab style="-fx-background-color: #FDE6AF;" text="COLD DRINKS">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #F1CD7F;">
+                     <children>
+                        <CharmListView layoutX="191.0" layoutY="31.0" prefHeight="462.0" prefWidth="557.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+            <Tab style="-fx-background-color: #FFFFFF;" text="QUICK BITES">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #F1CD7F;" />
+              </content>
+            </Tab>
+            <Tab style="-fx-background-color: #FDE6AF;" text="NEW DISHES">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #FDE6AF;" />
+              </content>
+            </Tab>
+            <Tab text="SPECIAL OFFERS">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Label prefHeight="33.0" prefWidth="674.0" text="MENU" textFill="#f0af4b" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <GridPane style="-fx-background-color: #ffffff;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="252.0" minHeight="10.0" percentHeight="9.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="469.0" minHeight="10.0" percentHeight="71.0" prefHeight="325.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="469.0" minHeight="10.0" percentHeight="10.0" prefHeight="172.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="469.0" minHeight="10.0" percentHeight="10.0" prefHeight="172.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FDE6AF;" />
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
+               <children>
+                  <Button layoutX="46.0" layoutY="9.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="125.0" text="MAKE ORDER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </GridPane>
+   </children>
+</GridPane>
