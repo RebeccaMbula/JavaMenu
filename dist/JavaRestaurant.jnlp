@@ -10,9 +10,9 @@
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
     <jar href="JavaRestaurant.jar" size="5075" download="eager" />
   </resources>
-  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JavaRestaurant" >
-    <param name="requiredFXVersion" value="8.0+"/>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  foodName="JavaRestaurant" >
+    <param foodName="requiredFXVersion" value="8.0+"/>
   </applet-desc>
-  <jfx:javafx-desc  width="800" height="600" main-class="javarestaurant.JavaRestaurant"  name="JavaRestaurant" />
+  <jfx:javafx-desc  width="800" height="600" main-class="javarestaurant.JavaRestaurant"  foodName="JavaRestaurant" />
   <update check="always"/>
 </jnlp>
