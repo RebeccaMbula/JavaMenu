@@ -1,2 +1,2 @@
 # JavaMenu
-My restaurant menu
+My restaurant menu.
